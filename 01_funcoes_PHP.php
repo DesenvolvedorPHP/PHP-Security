@@ -1,5 +1,8 @@
 <?php
 
+//função em PHP
+
+
 function escreverEstados(){
 	echo "São Paulo";
 	echo "<br>";
@@ -13,4 +16,6 @@ function escreverEstados(){
 	
 }
 
+
+// chamando a função em qualquer parte do código.
 escreverEstados();
