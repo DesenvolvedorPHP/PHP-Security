@@ -11,14 +11,15 @@ function paramPhp($nome){
 paramPhp("Fulano");
 echo "<br>";
 paramPhp("Ciclano");
+echo "<br><hr><br>";
 
 // Trocar o formato da data
 function converteData($formato, $data){
 	
 	if($formato == "br"){
-		$data = explode(delimiter, "-" , $data);
+		$data = explode( "-" , $data);
 		$data = array_reverse($data);
-		$data = implode(glue, "/", $data);
+		$data = implode( "/", $data);
 	}else{
 		$data = explode(delimiter, "/" , $data);
 		$data = array_reverse($data);
