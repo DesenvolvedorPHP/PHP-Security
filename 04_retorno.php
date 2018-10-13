@@ -1,9 +1,15 @@
 <?php
+
+/* 
+Valores podem ser retornados utilizando a instrução opcional return. 
+Qualquer tipo pode ser retornado, incluindo arrays e objetos. 
+Isto faz com que as função termine sua execução imediatamente e passa o controle de volta para a linha de onde ela foi chamada.
+*/
+
 	/*
 	function abc(){
 		return "123";
 	}
-	
 	$valor = abc();
 	echo $valor;
 	*/
