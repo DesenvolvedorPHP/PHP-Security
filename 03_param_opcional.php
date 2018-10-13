@@ -18,4 +18,4 @@ function converteData($data, $formato = 'br'){
 }
 
 
-converteData('1984-10-07', 'db');
+converteData('1900-01-01', 'db');
