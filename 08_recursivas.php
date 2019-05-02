@@ -1,6 +1,7 @@
 <?php
 
 // Funções recursivas
+// A recursividade é a definição de uma sub-rotina (função ou método) que pode invocar a si mesma.
 
 function recursivo($i, $tabuada)
 {
