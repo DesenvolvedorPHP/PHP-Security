@@ -1,3 +1,2 @@
-# Paradigma-Procedural
+# Segurança
 
-> Funções, parâmetros tipados, funções recursivas, funções anônimas, tipo de retorno, entre outras.
