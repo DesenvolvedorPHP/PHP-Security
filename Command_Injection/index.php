@@ -1,6 +1,12 @@
 <?php
 	if($_SERVER["REQUEST_METHOD"] === 'POST'):
-		$cmd = $_POST["cmd"];
+
+		// COMMAND INJECTION
+		//$cmd = $_POST["cmd"];
+		$cmd = escapeshellcmd($_POST["cmd"]);
+		// COMMAND INJECTION
+
+
 		echo "<pre>";
 			$comando = system($cmd, $retorno);
 		echo "</pre>";
