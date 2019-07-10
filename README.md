@@ -4,3 +4,4 @@
 
 * Command Injection
 * SQL Injection
+* Folder Permissions
